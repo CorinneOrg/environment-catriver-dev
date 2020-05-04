@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:catriver/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:catriver/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:catriver/prow:hmacToken
+segmentWriteKey: vault:catriver:segmentWriteKey
